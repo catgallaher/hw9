@@ -1,0 +1,50 @@
+
+.home a img {
+	position: relative;
+	width: 140px;
+	height: 176px;
+}
+
+.home a:hover img {
+	content: url('home_hover.png');
+	position: relative;
+	width: 140px;
+	height: 176px;
+}
+
+.about a img {
+	position: relative;
+	width: 140px;
+	height: 176px;
+}
+
+.about a:hover img {
+	content: url('about_hover.png');
+	position: relative;
+	width: 140px;
+	height: 176px;
+}
+
+.contact a img {
+	position: relative;
+	width: 140px;
+	height: 176px;
+}
+
+.contact a:hover img {
+	content: url('contact_hover.png');
+	position: relative;
+	width: 140px;
+	height: 176px;
+}
+
+.pics :hover { 
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-moz-transition: all 1.0s ease-in-out;
+ 	 -webkit-transition: all 1.0s ease-in-out;
+ 	 -0-transition: all 1.0s ease-in-out;
+	 transition-delay: all 1.0s ease-in-out;
+}
